@@ -6,7 +6,7 @@ function PageLayout(props){
         <>
             <h1>{props.header}</h1>
             <p>{props.children}</p>
-            <p>{props.icon} {props.footer}</p>
+            <p>{props.footer}</p>
         </>
     )
 }

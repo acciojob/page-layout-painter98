@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <PageLayout header={'Welcome to my website'} icon ={<BiCopyright />}footer={`2023 My Website. All rights reserved.`}>
+        <PageLayout header={'Welcome to my website'} footer={`© 2023 My Website. All rights reserved.`}>
           This is the content of my website.
         </PageLayout>
     </div>
